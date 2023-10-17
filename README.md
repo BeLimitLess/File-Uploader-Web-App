@@ -1,10 +1,15 @@
 # File-Uploader-Web-App
- Developed a secure web application enabling users to upload files to Azure Blob Storage. The application generates unique, time-limited sharing links, ensuring authorized access.
- Created an Azure Blob Storage account with a dedicated container for secure file storage.
-Enabled data-at-rest encryption for enhanced data security.
-Developed a web application for file uploads, integrating Azure Blob Storage SDKs/APIs.
-Implemented time-limited link generation using Azure Storage SDK.
-Ensured secure credential management by storing sensitive data in Azure Key Vault.
-Integrated Azure Key Vault with the web application for secure credential retrieval.
-Set up monitoring for tracking file upload and download activities.
-Implemented Azure Functions for periodic cleanup of expired files in Azure Blob Storage.
+Created a web application where users can securely upload files to Azure Blob Storage. Once uploaded, the application generates a unique, time-limited link for the user to share. This ensures that only authorized users with the link can access the uploaded file for a specified duration.
+
+Programming required?: HTML, CSS, JavaScript, Python.
+
+Azure Services Used:
+Azure Blob Storage
+Azure Web Apps
+Azure KeyVault
+Azure Front Door
+Azure Function App
+
+
+https://github.com/BeLimitLess/File-Uploader-Web-App/assets/74623726/c1249648-6941-4898-97a2-e0d589653741
+
